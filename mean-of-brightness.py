@@ -1,4 +1,6 @@
 import cv2
+import matplotlib.pyplot as plt
+import numpy as np
 
 register=[0]*600
 i=0
