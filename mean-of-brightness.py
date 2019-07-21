@@ -12,6 +12,7 @@ while True:
 
     cv2.imshow('PUSH ENTER KEY', im)
     mean=im.mean()
+    print(mean)
     register[i]=mean
     i+=1
     if cv2.waitKey(1) == 13: break
